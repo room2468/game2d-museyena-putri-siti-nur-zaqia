@@ -42,7 +42,7 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
 
    ![gameplay](https://github.com/user-attachments/assets/6fd5a5c3-2eee-499b-8bce-1882bd78188b)
    
-8. Durasi dan player yang menjawab akan muncul pada setiap pertanyaan
+8. Durasi dan player yang menjawab pertanyaan akan muncul pada setiap pertanyaan dari player lainnya
 
    ![durasi dan player yang menjawab](https://github.com/user-attachments/assets/34c0053c-bb5c-4d5c-8012-a1d1df98e595)
 
