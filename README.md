@@ -32,11 +32,23 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
 1. Player melakukan login dengan menginputkan IP localhost:3000
    
    ![IP_login](https://github.com/user-attachments/assets/476389c7-30e5-43ed-b7e1-d7d3874964c8)
+   
 3. Player memasukkan nama kemudian klik "Join" (Player utama yang join akan menjadi Host)
 4. Player akan masuk ke "Waiting Room" sembari menunggu Host memulai game
-5. Setelah host memulai game, akan muncul tampilan "gameplay"
-6. Durasi dan player yang menjawab akan muncul pada setiap pertanyaan
-7. Skor game muncul di akhir permainan berdasarkan tampilan leaderboard 
+
+   ![waiting_room](https://github.com/user-attachments/assets/b6ce9317-5acb-4f6f-b071-03d1e5d305d9)
+   
+6. Setelah host memulai game, akan muncul tampilan "gameplay"
+
+   ![gameplay](https://github.com/user-attachments/assets/6fd5a5c3-2eee-499b-8bce-1882bd78188b)
+   
+8. Durasi dan player yang menjawab akan muncul pada setiap pertanyaan
+
+   ![durasi dan player yang menjawab](https://github.com/user-attachments/assets/34c0053c-bb5c-4d5c-8012-a1d1df98e595)
+
+10. Skor game muncul di akhir permainan berdasarkan tampilan leaderboard
+     ![leaderboard](https://github.com/user-attachments/assets/9949afaa-0902-459e-a37f-8f73a451b9ec)
+
 
 
 
