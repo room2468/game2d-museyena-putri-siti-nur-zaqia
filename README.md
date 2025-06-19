@@ -28,7 +28,14 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
 3. Putri Nur Alisyah : Mengelola sesi meliputi pemain, ID socket, room, mengatur host, ronde, dan validasi jawaban serta memastikan sinkronisasi semua client berjalan lancar
 4. Zaqiatus Sholihah : Membangun layout setiap screen (home, waiting room, game screen, leaderboard), membuat style.css agar tampilan menarik dan responsif, serta  mengatur warna, font, ukuran elemen dan efek interaktif
 
-
+## Tampilan Game
+1. Player melakukan login dengan menginputkan IP localhost:3000
+   ![IP_login](https://github.com/user-attachments/assets/476389c7-30e5-43ed-b7e1-d7d3874964c8)
+3. Player memasukkan nama kemudian klik "Join" (Player utama yang join akan menjadi Host)
+4. Player akan masuk ke "Waiting Room" sembari menunggu Host memulai game
+5. Setelah host memulai game, akan muncul tampilan "gameplay"
+6. Durasi dan player yang menjawab akan muncul pada setiap pertanyaan
+7. Skor game muncul di akhir permainan berdasarkan tampilan leaderboard 
 
 
 
