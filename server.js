@@ -42,15 +42,15 @@ let maxRounds = 10;
 let usedWords = [];
 let wordList = [
   "pisang",
-  "jeruk",
-  "nangka",
-  "manggis",
-  "alpukat",
-  "semangka",
-  "durian",
-  "jambu",
-  "markisa",
-  "mangga",
+  "kucing",
+  "laptop",
+  "buku",
+  "meja",
+  "lampu",
+  "kursi",
+  "layar",
+  "botol",
+  "sepatu",
 ]; // Contoh
 let currentWord = "";
 let currentShuffled = "";
