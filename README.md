@@ -28,8 +28,6 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
 3. Putri Nur Alisyah : Mengelola sesi meliputi pemain, ID socket, room, mengatur host, ronde, dan validasi jawaban serta memastikan sinkronisasi semua client berjalan lancar
 4. Zaqiatus Sholihah : Membangun layout setiap screen (home, waiting room, game screen, leaderboard), membuat style.css agar tampilan menarik dan responsif, serta  mengatur warna, font, ukuran elemen dan efek interaktif
 
-##
-
 
 
 
