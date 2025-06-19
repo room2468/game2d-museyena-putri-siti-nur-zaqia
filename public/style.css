@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* General screen wrapper */
+.screen {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rebeccapurple;
+  text-shadow: 1px 1px 3px black;
+  padding: 20px;
+}
+.content-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+  min-width: 300px;
+}
+
+.content-box h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #4b0082;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+/* Home screen input */
+#home-screen input,
+#answer-input {
+  padding: 10px;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.game-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+}
+/* Big word display */
+.big-word {
+  font-size: 3rem;
+  letter-spacing: 10px;
+  margin: 20px 0;
+  text-shadow: none !important;
+}
+
+/* Buzz status */
+.status {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px dashed white;
+}
+
+/* Round display */
+#round-display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+/* Player list & Leaderboard */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 1.1rem; 
+  line-height: 1.5; 
+}
+
+ul li {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+/* Answer form */
+#answer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: none !important;
+}
+
+#answer-input:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  text-shadow: none !important;
+}
