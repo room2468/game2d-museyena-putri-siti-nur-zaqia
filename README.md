@@ -30,6 +30,7 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
 
 ## Tampilan Game
 1. Player melakukan login dengan menginputkan IP localhost:3000
+   
    ![IP_login](https://github.com/user-attachments/assets/476389c7-30e5-43ed-b7e1-d7d3874964c8)
 3. Player memasukkan nama kemudian klik "Join" (Player utama yang join akan menjadi Host)
 4. Player akan masuk ke "Waiting Room" sembari menunggu Host memulai game
