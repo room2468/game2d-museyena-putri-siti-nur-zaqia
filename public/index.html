@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Kuis Kata</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Audio Elements -->
+
+    <!-- HOME SCREEN -->
+    <section id="home-screen">
+      <div class="screen" style="background-image: url('img/home-bg.jfif')">
+        <div class="content-box">
+          <h1>Selamat Datang di Game Kuis Kata!</h1>
+          <input type="text" id="name" placeholder="Masukkan Nama Kamu" />
+          <button id="join-btn">Gabung Game</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WAITING ROOM -->
+    <section id="waiting-room" style="display: none">
+      <div class="screen" style="background-image: url('img/bg.jfif')">
+        <h2>Waiting Room</h2>
+        <ul id="player-list"></ul>
+        <button id="start-btn" style="display: none">Mulai Game (Host)</button>
+        <p>Menunggu host memulai permainan...</p>
+      </div>
+    </section>
+
+    <!-- GAME SCREEN -->
+    <section id="game-screen" style="display: none">
+      <div class="screen" style="background-image: url('img/game-bg.jfif')">
+        <div class="game-box">
+          <h2 id="round-display">Ronde 1</h2>
+          <div id="shuffled-word" class="big-word"></div>
+          <div id="buzz-status" class="status"></div>
+
+          <form id="answer-form" style="display: none">
+            <input
+              type="text"
+              id="answer-input"
+              placeholder="Ketik jawabanmu di sini..."
+              autocomplete="off"
+            />
+            <button type="submit">Kirim Jawaban</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD SCREEN -->
+    <section id="leaderboard-screen" style="display: none">
+      <div class="screen" style="background-image: url('img/bg.jfif')">
+        <div class="content-box">
+          <h2>Leaderboard</h2>
+          <ul id="score-list"></ul>
+        </div>
+      </div>
+    </section>
+<!-- Sound Effects -->
+<audio id="buzz-sound" src="sounds/click.mp3"></audio>
+<audio id="correct-sound" src="sounds/correct.mp3"></audio>
+<audio id="wrong-sound" src="sounds/wrong.mp3"></audio>
+<audio id="submit-sound" src="sounds/click.mp3"></audio>
+<audio id="leaderboard-sound" src="sounds/end.mp3"></audio>
+
+<!-- Countdown 1-10 -->
+<audio id="countdown-1" src="sounds/count1.mp3"></audio>
+<audio id="countdown-2" src="sounds/count2.mp3"></audio>
+<audio id="countdown-3" src="sounds/count3.mp3"></audio>
+<audio id="countdown-4" src="sounds/count4.mp3"></audio>
+<audio id="countdown-5" src="sounds/count5.mp3"></audio>
+<audio id="countdown-6" src="sounds/count6.mp3"></audio>
+<audio id="countdown-7" src="sounds/count7.mp3"></audio>
+<audio id="countdown-8" src="sounds/count8.mp3"></audio>
+<audio id="countdown-9" src="sounds/count9.mp3"></audio>
+<audio id="countdown-10" src="sounds/count10.mp3"></audio>
+
+<!-- Background Music -->
+<audio id="bg-music" src="sounds/bgm.mp3" loop></audio>
+
+    <script src="game.js"></script>
+  </body>
+</html>
