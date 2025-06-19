@@ -21,16 +21,6 @@ const server = http.createServer((req, res) => {
   };
 
   const contentType = mimeTypes[extname] || "application/octet-stream";
-
-  fs.readFile(filePath, (error, content) => {
-    if (error) {
-      res.writeHead(500);
-      res.end("Internal Server Error");
-    } else {
-      res.writeHead(200, { "Content-Type": contentType });
-      res.end(content, "utf-8");
-    }
-  });
 });
 
 const wss = new WebSocket.Server({ server });
