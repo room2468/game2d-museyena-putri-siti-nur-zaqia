@@ -3,6 +3,7 @@ const socket = new WebSocket("ws://localhost:3000");
 let playerName = "";
 let isHost = false;
 let hasBuzzed = false;
+//
 
 // UI Elements
 const screens = {
