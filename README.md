@@ -50,5 +50,9 @@ Game edukatif multiplayer berbasis jaringan yang menggunakan TCP secara real-tim
      ![leaderboard](https://github.com/user-attachments/assets/9949afaa-0902-459e-a37f-8f73a451b9ec)
 
 
+## 🎥LINK RECORD VIDEO
+https://youtu.be/avN5q62cA68?si=jzITYCK3wCAo-jnK
+
+
 
 
